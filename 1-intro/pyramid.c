@@ -3,7 +3,7 @@ void buildPyramid(int number);
 
 int main(void) {
     int number;
-    printf("Number of function calls:\n>>> ");
+    printf("Number of blocks in half of the bottom row:\n>>> ");
     if (scanf("%d", &number))
         buildPyramid(number);
     else
