@@ -3,11 +3,21 @@ void buildPyramid(int number);
 
 int main(void) {
     int number;
-    printf("Number of blocks in half of the bottom row:\n>>> ");
-    if (scanf("%d", &number))
-        buildPyramid(number);
-    else
-        printf("Input is not an integer");
+    for ( ; ; ) {
+        printf("Number of blocks in half of the bottom row (from 1 to 150):\n>>> ");
+            if (scanf("%d", &number)) {
+                if (number < 1 || number > 150) {
+                    printf("Input must be from 1 to 150\n");
+                    continue;
+                } else {
+                    buildPyramid(number);
+                    break;
+                }
+            } else {
+                printf("Input is not an integer\n");
+                break;
+            }
+    }
 
     return 0;
 }
