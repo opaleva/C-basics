@@ -12,8 +12,8 @@ int main(void) {
             } else {
                 printf("First %d numbers of the Fibonacci sequence are:\n", amount);
                 for (i = 1; i <= amount; i++) {
-                    printf("%d ", sequence(i));
-                    if (i % 10 == 0)
+                    printf("#%-2d = %-11d ", i, sequence(i));
+                    if (i % 5 == 0)
                         printf("\n");
                 }
                 break;
