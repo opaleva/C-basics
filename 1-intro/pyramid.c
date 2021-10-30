@@ -1,5 +1,5 @@
 #include <stdio.h>
-void buildPyramid(int number);
+void build_pyramid(int number);
 
 int main(void) {
     int number;
@@ -10,7 +10,7 @@ int main(void) {
                     printf("Input must be from 1 to 150\n");
                     continue;
                 } else {
-                    buildPyramid(number);
+                    build_pyramid(number);
                     break;
                 }
             } else {
@@ -22,7 +22,7 @@ int main(void) {
     return 0;
 }
 
-void buildPyramid(int number) {
+void build_pyramid(int number) {
     int i, j, k;
     for (i = 1; i <= number; i++) {
         for (k = 0; k < number - i; ++k) {
