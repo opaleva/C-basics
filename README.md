@@ -5,8 +5,4 @@
 
 - #### Fibonacci recursive program
   [for numbers from 1 to 46 with input validation]
-- 
 ---
-
-### Day 2. Input, output and strings.
-- #### Calculating the time to download the file
