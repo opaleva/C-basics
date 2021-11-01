@@ -7,7 +7,7 @@ int main(void) {
     double x, y;
         printf("First number:\n>>> ");
         if (scanf("%lf", &x)) {
-            printf("Operator:\n| + | - | * | / | p for pow | s for sqrt are available\n>>> ");
+            printf("Operator:\n| + | - | * | / | ^ for pow | s for sqrt are available\n>>> ");
             scanf(" %c", &operator);
             if (operator == 's') {
                 printf("√%.16g = %.16g", x, sqrt(x));
@@ -36,7 +36,7 @@ double calculate(char operator, double x, double y) {
             return x * y;
         case '/':
             return x / y;
-        case 'p':
+        case '^':
             return pow(x, y);
         default:
             printf("Operator is invalid");
