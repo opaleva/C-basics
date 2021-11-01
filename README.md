@@ -10,3 +10,10 @@
 
 ### Day 2. Input, output and strings.
 - #### Calculating the time to download the file
+
+---
+
+### Day 3. Operators
+- #### Calculator with basic operators, degree and square root, without trailing zeros
+
+---

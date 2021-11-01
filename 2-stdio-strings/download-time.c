@@ -16,6 +16,8 @@ int main(void) {
     } else {
         printf("Input is not a number\n");
     }
+
+    return 0;
 }
 
 float get_time(float BYTE, float speed, float size) {

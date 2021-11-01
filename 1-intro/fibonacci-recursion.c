@@ -23,6 +23,8 @@ int main(void) {
             break;
         }
     }
+
+    return 0;
 }
 
 int sequence(int n) {
