@@ -15,7 +15,8 @@
 
 ### Day 3. Operators
 - #### Calculator with basic operators, degree and square root, without trailing zeros
+- #### Celsius to Fahrenheit and Kelvin conversion
 
 ---
 
-### Day 4.
+### Day 4. Control statements

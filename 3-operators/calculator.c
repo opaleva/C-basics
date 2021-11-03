@@ -16,11 +16,11 @@ int main(void) {
                 if (scanf("%lf", &y)) {
                     printf("%.16g %c %.16g = %.16g", x, operator, y, calculate(operator, x, y));
                 } else {
-                    printf("Input is not a number1\n");
+                    printf("Input is not a number\n");
                 }
             }
         } else {
-            printf("Input is not a number2\n");
+            printf("Input is not a number\n");
         }
 
     return 0;
