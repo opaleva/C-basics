@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(learning)
+project(C-basics)
 
 set(CMAKE_C_STANDARD 11)
 
@@ -10,5 +10,6 @@ add_executable(astronomical-units 2-stdio-strings/astronomical-units.c)
 add_executable(calculator 3-operators/calculator.c)
 add_executable(temperatures 3-operators/temperatures.c)
 add_executable(pyramid 4-control-statements/pyramid.c)
+add_executable(arrays 6-arrays/main.c 6-arrays/utils/sorting.h 6-arrays/utils/sorting.c)
 
 target_link_libraries(calculator m)

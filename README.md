@@ -27,6 +27,7 @@
 ---
 
 ### Day 6. Arrays
+- Sorting an array merged from two unsorted arrays (two types of sorting in comparison)
 
 ---
 
