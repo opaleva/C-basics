@@ -32,6 +32,7 @@ int main(void) {
             exit(EXIT_FAILURE);
         }
 
-    simple_sort(first_array, second_array, first_size, second_size);
+    sort_merge(first_array, second_array, first_size, second_size);
+    bubble_sort(first_array, second_array, first_size, second_size);
     quick_sort(first_array, second_array, first_size, second_size);
 }
